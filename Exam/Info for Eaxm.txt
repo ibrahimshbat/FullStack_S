@@ -1,0 +1,6 @@
+Mutation:
+The value of string can not be change but the string varaible name  can br change. For example, s='hello' when we say s = s + 'w', it create new string and point to using s =hellow but Hello string still in memory but it has not get refere.
+
+If we have s='hello' and we do s[0]='y', this will not work and it shows the str object does not support item assignement, is not mutable.
+
+Aliasing is two refereces are point to the same value, for example, a=[1,2,3] and we can say b=a.
